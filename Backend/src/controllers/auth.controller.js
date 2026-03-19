@@ -161,7 +161,7 @@ export async function verifyEmailController(req, res) {
         const html = `<h2>Email Verified Successfully!</h2>
                     <p>Thank you for verifying your email address. Your account is now active.</p>
                     <p>You can now log in to your account and start using Perplexity.</p>
-                    <a href="http://localhost:3000/api/auth/login">Go to Login</a>
+                    <a href="http://localhost:5173/login">Go to Login</a>
                     <p>Best regards,<br/>The Perplexity Team</p>`;
 
         return res.send(html);
